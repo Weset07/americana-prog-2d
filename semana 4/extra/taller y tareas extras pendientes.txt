@@ -1,0 +1,41 @@
+primeramente, estas actividades las pondras en la carpeta de extra, directamente que es donde esta este archivo
+
+Union de dos vectores sin elementos repetidos
+
+se le pregunta al usuario por ambas longitudes de vectores para luego crear el tercero con la union, si repetir elementos.
+me gustaria añadir una impresion luego donde muestre los elementos repetidos
+
+para los siguientes ejercicios, crea una carpeta que diga "taller" y luego una carperta para cada ejercicio del 1 al 15
+
+Suponga donde sea necesario un tamaño n.
+1. Leer un vector de números e imprimir lo siguiente.
+a) La cantidad de elementos iguales al último.
+b) La cantidad de elementos diferentes al primero.
+2. Leer un vector de números e imprimir la suma de los elementos pares.
+3. Leer un vector de números e imprimir la suma de los elementos impares que se
+encuentran en posiciones pares.
+4. Leer un vector e imprimir el vector en sentido inverso a cómo se leyó
+(último,penúltimo...).
+5. Leer un vector de números y contar la cantidad de números menores que el promedio.
+6. Leer 2 vectores de tamaños A y B respectivamente. Se pide crear un tercer vector con la
+concatenación de los dos vectores. Imprimir los 3 vectores.
+7. Leer un vector de números e imprimir el mayor y el menor elemento.
+8. Leer un vector de números y averiguar cuántas veces aparece el menor número.
+9. Leer un vector de números e imprimir la posición en donde se encuentra el primer 5.
+10. Leer 2 vectores y averiguar si son iguales.
+11. Leer 2 vectores de números y crear un tercer vector con la suma de los dos anteriores,
+Imprimir el vector resultante.
+12. Leer 2 vectores A y B, de n y m elementos respectivamente y formar un tercer vector
+con los elementos de B que estén repetidos en A.
+13. Formar tres vectores con el nombre, el sexo y la edad de un grupo de personas e
+imprimir lo siguiente:
+a) Promedio de edades.
+b) Cantidad de mujeres que tienen una edad inferior al promedio.
+c) El nombre del hombre más viejo.
+d) Los nombres de todas las personas que tienen la menor edad.
+14. Se tienen 2 vectores A y B de longitud n elaborar un algoritmo que permita conformar un
+tercer vector con la suma de los dos vectores de la siguiente manera: el contenido de la
+primera posición de A con el contenido de la última posición de B, el de la segunda
+posición de A con el contenido de la penúltima posición de B y así hasta terminar los
+vectores. Imprimir los 3 vectores.
+15. Averiguar cuántas veces aparece un dato determinado en un vector.

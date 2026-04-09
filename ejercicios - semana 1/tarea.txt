@@ -1,0 +1,79 @@
+Desarrolla los siguientes ejercicios utilizando únicamente se puede usar condicionales y ciclo While
+
+ 1. Control de Ahorros Mensuales
+
+Crea un programa que simule un plan de ahorro. El usuario debe ingresar cuánto dinero ahorra cada mes. El programa continuará pidiendo el valor ahorrado hasta que el usuario haya alcanzado (o superado) una meta de ahorro preestablecida (por ejemplo, $1000). Al finalizar, muestra:
+
+Cuántos meses tardó en alcanzar la meta.
+Cuánto fue el promedio de ahorro mensual.
+Cuál fue el menor y el mayor monto ahorrado (no usar listas, usar condicionales para comparar).
+2. Sistema de Cálculo de Intereses
+
+Simula un sistema bancario donde el usuario deposita un monto inicial y cada mes se le suma un 5% de interés compuesto. El programa debe seguir calculando y mostrando el nuevo saldo mes a mes hasta que supere un valor límite (por ejemplo, $2000). Al final, muestra:
+
+Cuántos meses pasaron.
+Cuánto dinero generó el interés total.
+El saldo final.
+3. Registro de Números Positivos y Negativos
+
+El usuario debe ingresar números uno por uno. El programa terminará cuando el usuario ingrese un cero. Durante este tiempo, el programa debe contar:
+
+Cuántos números positivos y negativos se ingresaron.
+El promedio de los positivos y de los negativos por separado.
+El número más alto ingresado y el más bajo (sin usar listas).
+4. Simulador de Lluvia
+
+Un agricultor lleva el registro diario de lluvia (en mm). El programa pide los milímetros de lluvia por día, y termina cuando el valor ingresado sea negativo (lo que indica fin del mes). Al finalizar, muestra:
+
+Días con lluvia superior a 20 mm.
+Días sin lluvia (0 mm).
+Total y promedio de lluvia del mes.
+Día más lluvioso (solo llevando una variable para comparar).
+5. Carrera de Suma
+
+Dos jugadores compiten sumando puntos. En cada turno, el programa pide el puntaje que cada uno obtuvo. La partida termina cuando alguno llegue o supere los 100 puntos. Al final, muestra:
+
+Quién ganó.
+Cuántos turnos duró la partida.
+Cuánto fue el puntaje total acumulado por cada jugador.
+Por cuántos puntos ganó.
+6. Cajero Automático con Retiro Múltiple
+
+Simula un cajero automático. El usuario tiene un saldo inicial. En cada ciclo, el programa pregunta cuánto desea retirar. El ciclo termina cuando el saldo sea 0 o el usuario escriba un valor negativo. El programa no debe permitir retirar más del saldo disponible. Al finalizar, muestra:
+
+Total retirado.
+Número de retiros realizados.
+Promedio de los retiros.
+Cuánto saldo quedó.
+7. Encuesta de Edad
+
+El programa pide edades de personas una por una hasta que se ingrese una edad igual a 0. Luego calcula:
+
+Cantidad de personas menores de 18.
+Cantidad de personas entre 18 y 65.
+Cantidad de personas mayores de 65.
+Promedio total de edad ingresada.
+No se puede usar listas, solo variables contadoras y acumuladores.
+
+8. Conversión de Temperaturas
+
+El programa simula un sistema de lectura de temperaturas en °C, que se ingresan una a una hasta que se ingrese un número fuera del rango (-100 a 100). El programa convierte cada temperatura a Fahrenheit y realiza:
+
+Conteo de temperaturas bajo 0 °C.
+Conteo de temperaturas sobre 30 °C.
+Promedio de temperaturas.
+Valor más alto y más bajo registrado.
+9. Control de Inventario
+
+Un comerciante ingresa unidades vendidas de un producto cada día. El programa sigue preguntando hasta que se llegue a 0 unidades disponibles (se inicia con un stock predefinido). Al finalizar muestra:
+
+Cuántos días duró el stock.
+Cuántas unidades se vendieron por día (promedio).
+Máxima y mínima venta diaria.
+10. Juego de Potencias
+
+El usuario debe adivinar el número secreto, pero con una variación: en cada intento, el programa compara el cuadrado del número ingresado con el cuadrado del número secreto. Dice si está “muy lejos”, “cerca” o “igual” en función de la diferencia entre potencias. El programa sigue hasta que se acierte, y al final muestra:
+
+Número de intentos.
+La diferencia absoluta más baja que tuvo.
+Promedio de los números ingresados.

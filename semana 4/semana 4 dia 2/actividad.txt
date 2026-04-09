@@ -1,0 +1,12 @@
+3 vectores que contengan cedula edad nombre el cual determine
+cual es la edad mayor
+cual es la edad menor 
+y el promedio
+dichos estudiantes, que tengan edad mayor o menor coincidente repetitiva, se imprimiran
+es decir, no importa que haya 5 estudiantes con 12 años, si 12 años es la edad menor imprimen todos
+en la impresión se debe incluir junto con la edad la cedula y el nombre.
+es el usuario quien determina el tamaño de los vectores, solo se pregunta cuantos estudiantes ingresara y todos lo vectores serán del mismo tamaño
+se le preguntara seguidamente, cedula, nombre y edad ejemplo :
+cedula del estudiante: 2525,
+ingrese nombre de cedula 2525: raul
+ingrese edad de raul : 12
