@@ -33,3 +33,4 @@ public class Ejercicio1 {
         }
     }
 }
+// prueba en pc nueva, funciona correctamente.
