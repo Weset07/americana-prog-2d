@@ -46,8 +46,45 @@ public class OrdenarVectorDeTrabajadores {
         for (int i = 0; i < n; i++) {
             System.out.printf("%-10d %-20s %-10.2f%n", codigo[i], nombre[i], salario[i]);
         }
+            //busqueda
+        while (true) {
+            System.out.print("\n¿Desea realizar una búsqueda? (sí/no): ");
+            String respuesta = scanner.nextLine().trim().toLowerCase();
+            if (respuesta.equals("sí") || respuesta.equals("si")) {
+                int codigoBuscado = leerEntero(scanner, "Ingrese el código a buscar: ");
+                int indiceEncontrado = busquedaBinaria(codigo, codigoBuscado);
+                if (indiceEncontrado >= 0) {
+                    System.out.println("\nCódigo encontrado:");
+                    System.out.printf("%s %d\n", "Código:", codigo[indiceEncontrado]);
+                    System.out.printf("%s %s\n", "Nombre:", nombre[indiceEncontrado]);
+                    System.out.printf("%s %.2f\n", "Salario:", salario[indiceEncontrado]);
+                } else {
+                    System.out.println("\nCódigo no encontrado en el arreglo.");
+                }
+            } else if (respuesta.equals("no")) {
+                break;
+            } else {
+                System.out.println("Entrada inválida. Por favor responda 'sí' o 'no'.");
+            }
+        }
 
         scanner.close();
+    }
+    
+    private static int busquedaBinaria(int[] vector, int clave) {
+        int izquierda = 0;
+        int derecha = vector.length - 1;
+        while (izquierda <= derecha) {
+            int medio = izquierda + (derecha - izquierda) / 2;
+            if (vector[medio] == clave) {
+                return medio;
+            } else if (vector[medio] < clave) {
+                izquierda = medio + 1;
+            } else {
+                derecha = medio - 1;
+            }
+        }
+        return -1;
     }
     //agregado por si el usuario pone algun valor donde no va y no se caiga el programa
     private static int leerEntero(Scanner scanner, String mensaje) {
