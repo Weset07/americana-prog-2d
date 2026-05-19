@@ -1,0 +1,58 @@
+PROGRAMA: Análisis de Matriz NxN
+================================
+
+El programa MatrizNxN.java resuelve 4 tareas con una matriz cuadrada de tamaño n:
+
+A) SUMA DE ELEMENTOS DE CADA FILA
+   - Itera sobre cada fila y suma todos los elementos
+   - Imprime la suma para cada fila
+
+B) PROMEDIO DE CADA COLUMNA
+   - Itera sobre cada columna y suma los elementos
+   - Divide la suma entre n para obtener el promedio
+   - Imprime el promedio de cada columna
+
+C) NÚMEROS PARES EN DIAGONAL PRINCIPAL
+   - Revisa los elementos donde i == j (diagonal principal)
+   - Cuenta cuántos son pares (elemento % 2 == 0)
+   - Imprime cada número par encontrado y el total
+
+D) NÚMEROS IMPARES EN DIAGONAL SECUNDARIA
+   - Revisa los elementos donde i + j == n - 1 (diagonal secundaria)
+   - Cuenta cuántos son impares (elemento % 2 != 0)
+   - Imprime cada número impar encontrado y el total
+
+COMPILACIÓN Y EJECUCIÓN:
+javac MatrizNxN.java
+java MatrizNxN
+
+EJEMPLO DE ENTRADA (matriz 3x3):
+3
+1 2 3
+4 5 6
+7 8 9
+
+EJEMPLO DE SALIDA:
+Matriz ingresada:
+1	2	3
+4	5	6
+7	8	9
+
+--- A) SUMA DE ELEMENTOS DE CADA FILA ---
+Suma de la fila 0: 6
+Suma de la fila 1: 15
+Suma de la fila 2: 24
+
+--- B) PROMEDIO DE CADA COLUMNA ---
+Promedio de la columna 0: 4.0
+Promedio de la columna 1: 5.0
+Promedio de la columna 2: 6.0
+
+--- C) NÚMEROS PARES EN DIAGONAL PRINCIPAL ---
+Total de números pares en diagonal principal: 0
+
+--- D) NÚMEROS IMPARES EN DIAGONAL SECUNDARIA ---
+Posición [0][2]: 3 (impar)
+Posición [1][1]: 5 (impar)
+Posición [2][0]: 7 (impar)
+Total de números impares en diagonal secundaria: 3
