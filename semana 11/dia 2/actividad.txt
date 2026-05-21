@@ -1,0 +1,6 @@
+hacemos punto D 
+determine cuantos numeros son pares multiplos de 5 por debajo de la diagonal secundaria
+
+a. cuantos números impares múltiplos de 3 hay por encima de la diagonal principal 
+b. cuantos números pares múltiplos de 7 hay por debajo de la diagonal principal 
+c. encuentra el promedio de los números por encima de la diagonal secundaria 
