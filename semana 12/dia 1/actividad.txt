@@ -1,0 +1,3 @@
+generar un codigo que recorra una matriz de tamaño N, debe recorrerlo en forma de M e imprimirse
+
+generar un codigo que recorra una matriz de tamaño N, debe recorrerlo en forma de Z e imprimirse
