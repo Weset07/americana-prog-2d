@@ -1,0 +1,4 @@
+en este dia hay que hacer dos actividades sobre una matriz cuadrada de nxn sea par o impar
+actividad 1: cambiar los elemento del cuadrante 2 y cuadrante 4 en la matriz
+actividad 2: cambiar los elementos del cuadrante 1 y cuadrante 3 en la matriz 
+hacer dichas actividades en java
