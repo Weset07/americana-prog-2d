@@ -1,0 +1,2 @@
+Leer 3 vectores de X, Y y Z elementos, se requiere, el numero mayor, el numero menor y el promedio de cada vector, además, el factorial 
+de los números menores de cada vector así como la impresión de los 3 vectores ordenados. Utilizando funciones y procedimientos.
